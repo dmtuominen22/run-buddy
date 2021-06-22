@@ -18,12 +18,11 @@ header {
   display: flex;
   justify-content: space-between;
   flex-wrap: wrap;
-  position: -webkit-sticky;
   position: sticky;
+  position: -webkit-sticky;
   top: 0;
   background-image: url("../images/hero-bg.jpg");
   background-size: cover;
-  background-position: center;
   background-attachment: fixed;
   background-position: 80%;
 }
@@ -106,7 +105,6 @@ section {
 .hero {
   background-image: url('../images/hero-bg.jpg');
   background-size: cover;
-  background-position: center;
   display: flex;
   justify-content: center;
   flex-wrap: wrap;
@@ -139,8 +137,12 @@ section {
   width: 40%;
   margin: 3.5%;
   border-radius: 15px;
-  box-shadow: 0 0 10px rgba (0, 0, 0, 0.8);
-  }
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+}
+
+.hero-form button:hover {
+  background-color: #39a6b2;  
+}
 
 .hero-form h3 {
   font-size: 24px;
@@ -162,7 +164,7 @@ section {
   background-color: rgba(255,255,255, 0.75);
 }
 
-.for-input:focus {
+.form-input:focus {
   background-color: rgba(255,255,255, 1);
   outline: none;
 }
@@ -177,13 +179,8 @@ section {
   border: none;
   padding: 10px 20px;
   font-size: 16px;
-  Border-radius: 10px;
+  border-radius: 10px;
 } 
-
-.hero-form button:hover {
-  background-color: #39a6b2;
-}
-
 /* HERO STYLES END */
 
 
@@ -276,7 +273,6 @@ section {
   line-height: 1.5;
   color: #024e76;
 }
-
 /* WHAT YOU DO STYLES END */
 
 /* MEET THE TRAINERS START */
@@ -396,8 +392,6 @@ section {
 .contact-info a {
   color: #fce138;
 }
-
-
 /* REACH OUT STYLES END */
 
 /* UTILITIES */
@@ -418,7 +412,7 @@ section {
   header {
     padding-bottom: 0;
     justify-content: center;
-    position:relative;
+    position: relative;
   }
 
   header h1 {
@@ -436,7 +430,7 @@ section {
     font-size: 20px;
   }
 
-    footer h2, footer div {
+  footer h2, footer div {
     text-align: center;
     width: 100%;
   }
@@ -488,6 +482,10 @@ section {
 
   .step-text {
     flex: 100%;  
+  }
+
+  .trainer-bio h3, .trainer-bio h4 {
+    display: block;
   }
 }
 
