@@ -344,7 +344,7 @@ section {
 /* WHAT YOU DO STYLES END */
 
 /* MEET THE TRAINERS START */
-.trainers {
+.projects {
   width: 100%;
   margin: 0 auto;
   display: flex;
@@ -352,33 +352,33 @@ section {
   justify-content: space-around;
 }
 
-.trainer {
+.project {
   margin: 20px;
   flex: 1;
   background: var(--secondary-color);
   color: var(--primary-color);
 }
 
-.trainer img {
+.project img { 
   width: 100%;
 }
 
-.trainer-bio {
+.project-info {
   padding: 25px;
   line-height: 1.3;
 }
 
-.trainer-bio h3 {
+.project-info h3 {
   font-size: 28px;
 }
 
-.trainer-bio h4 {
+.project-info h4 {
   font-weight: lighter;
   font-size: 22px;
   margin-bottom: 15px;
 }
 
-.trainer-bio p {
+.project-info p {
   font-size: 17px;
 }
 /* TRAINER STYLES END */
@@ -587,3 +587,12 @@ section {
   }
 }
 
+
+
+your-trainer = your projects
+
+trainers  =  projects
+
+trainer = project
+
+trainer-bio  =  project-info
